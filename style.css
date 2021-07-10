@@ -170,6 +170,12 @@ img {
   color: #333;
 }
 
+.operations{
+color: inherit;
+  background-color: var(--color-primary-darker);
+  color: #333;
+}
+
 /* HEADER */
 .header {
   padding: 0 3rem;
