@@ -41,7 +41,7 @@
         </ul>
         <ul>
         <li class="nav__item">
-            <a class="login nav__link nav__link--btn" href="operations.html"
+            <a class="login nav__link nav__link--btn btn--show-modal-login" href="#"
               >Login</a
             >
           </li>
@@ -344,6 +344,25 @@
         <label>Email Address</label>
         <input type="email" />
         <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+    
+    <div class="modal hidden">
+      <button class="btn--close-modal-login">&times;</button>
+      <h2 class="modal__header">
+        Signin <br />
+         <span class="highlight">Here!</span>
+      </h2>
+      <form class="modal__form">
+        <label>Email</label>
+        <input type="email" />
+        <label>password</label>
+        <input type="password" />
+        
+        <button class="btn"><a href="operations.html"
+              >Login</a
+            >&rarr;</button>
       </form>
     </div>
     <div class="overlay hidden"></div>
