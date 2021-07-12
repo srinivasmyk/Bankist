@@ -26,6 +26,17 @@ const closeModal = function () {
   overlay.classList.add('hidden');
 };
 
+const openModalLogin = function () {
+  modalLogin.classList.remove('hidden');
+  overlay.classList.remove('hidden');
+};
+
+const closeModalLogin = function () {
+  modalLogin.classList.add('hidden');
+  overlay.classList.add('hidden');
+};
+
+
 for (let i = 0; i < btnsOpenModal.length; i++)
   btnsOpenModal[i].addEventListener('click', openModal);
 
