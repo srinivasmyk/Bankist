@@ -11,6 +11,8 @@ const modal = document.querySelector('.modal');
 const modalLogin = document.querySelector('.modal-login');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.btn--close-modal');
+const btnCloseModalLogin = document.querySelector('.btn--close-modal-login');
+
 const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
 const btnsOpenModalLogin = document.querySelectorAll('.btn--show-modal-login');
 
@@ -41,9 +43,11 @@ for (let i = 0; i < btnsOpenModal.length; i++)
   btnsOpenModal[i].addEventListener('click', openModal);
 
 for (let i = 0; i < btnsOpenModalLogin.length; i++)
-  btnsOpenModalLogin[i].addEventListener('click', openModal);
+  btnsOpenModalLogin[i].addEventListener('click', openModalLogin);
 
 btnCloseModal.addEventListener('click', closeModal);
+btnCloseModalLogin.addEventListener('click', closeModalLogin);
+
 overlay.addEventListener('click', closeModal);
 
 document.addEventListener('keydown', function (e) {
