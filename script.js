@@ -36,25 +36,6 @@ document.addEventListener('keydown', function (e) {
 });
 
 
-// Login Modal window
-
-
-const btnCloseModalLogin = document.querySelector('.btn--close-modal-login');
-const btnsOpenModalLogin = document.querySelectorAll('.btn--show-modal-login');
-
-
-
-for (let i = 0; i < btnsOpenModalLogin.length; i++)
-  btnsOpenModalLogin[i].addEventListener('click', openModal);
-
-btnCloseModalLogin.addEventListener('click', closeModal);
-overlay.addEventListener('click', closeModal);
-
-document.addEventListener('keydown', function (e) {
-  if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-    closeModal();
-  }
-});
 
 
 ///smooth scrolling
