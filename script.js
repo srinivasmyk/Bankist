@@ -8,9 +8,12 @@
 // Modal window
 
 const modal = document.querySelector('.modal');
+const modalLogin = document.querySelector('.modal-login');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.btn--close-modal');
 const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
+const btnsOpenModalLogin = document.querySelectorAll('.btn--show-modal-login');
+
 const header= document.querySelector('.header');
 
 const openModal = function () {
@@ -25,6 +28,9 @@ const closeModal = function () {
 
 for (let i = 0; i < btnsOpenModal.length; i++)
   btnsOpenModal[i].addEventListener('click', openModal);
+
+for (let i = 0; i < btnsOpenModalLogin.length; i++)
+  btnsOpenModalLogin[i].addEventListener('click', openModal);
 
 btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
