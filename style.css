@@ -650,7 +650,7 @@ h4 {
   margin-top: 1rem;
 }
 
-.btn--close-modal {
+.btn--close-modal, .btn--close-modal-login{
   font-family: inherit;
   color: inherit;
   position: absolute;
