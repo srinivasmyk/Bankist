@@ -38,21 +38,11 @@ document.addEventListener('keydown', function (e) {
 
 // Login Modal window
 
-const modalLogin = document.querySelector('.modal');
-const overlay = document.querySelector('.overlay');
+
 const btnCloseModalLogin = document.querySelector('.btn--close-modal-login');
 const btnsOpenModalLogin = document.querySelectorAll('.btn--show-modal-login');
-const header= document.querySelector('.header');
 
-const openModal = function () {
-  modal.classList.remove('hidden');
-  overlay.classList.remove('hidden');
-};
 
-const closeModal = function () {
-  modal.classList.add('hidden');
-  overlay.classList.add('hidden');
-};
 
 for (let i = 0; i < btnsOpenModalLogin.length; i++)
   btnsOpenModalLogin[i].addEventListener('click', openModal);
