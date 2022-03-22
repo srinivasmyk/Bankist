@@ -47,7 +47,7 @@ const account2 = {
 };
 
 const account4 = {
-   owner: 'Sarah Smith',
+   owner: 'srinivas.myakala18@gmail.com',
    movements: [430, 1000, 700, 50, 90],
  interestRate: 1,
    pin: 4444,
