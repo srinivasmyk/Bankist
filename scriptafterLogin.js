@@ -301,7 +301,11 @@ aptrinsic("identify",
   //Account Fields
     "id":"BOK", //Required
     "name":"Bank of Kavadi",
-    "Program": "Platinum" // flat custom attributes
+    "Program": "Platinum",
+	"Customer ID": 231,
+	"Handle":"staging",
+	"Kind":"test user",
+	"status":"active"// flat custom attributes
  });
 let userType="Admin";
 // if(currentAccount.userName==="ss"){
