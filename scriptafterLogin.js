@@ -47,7 +47,7 @@ const account2 = {
 };
 
 const account4 = {
-   owner: 'srinivas.myakala@yahoo.com',
+   owner: 'user 1',
    movements: [430, 1000, 700, 50, 90],
  interestRate: 1,
    pin: 1894,
